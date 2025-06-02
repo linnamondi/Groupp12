@@ -4,7 +4,7 @@ This repository contains live coding questions, our thought process (pseudocode)
 Write a program that determines whether a given  number is prime.Explore different ways to implement this check and consider efficiency for larger numbers.
 ## Group 12 Members
 |     Name        |
-|.................|
+|-----------------|
 |Linn Amondi      |      
 |Shaline Davida   |
 |Elizabeth Barongo|
