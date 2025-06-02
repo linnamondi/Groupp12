@@ -1,0 +1,20 @@
+Input
+List of jobs, each with ordered tasks and processing times
+Workers with unique skills and availability schedules
+Machines with capabilities, availability, and planned maintenance windows
+Job priorities and due dates
+Output:
+Optimized schedule assigning tasks to workers and machines
+Start and end times for each task, respecting availability and maintenance
+Maximized job throughput and minimized total completion time
+Pseudocode:
+Initialize timeline calendars for workers and machines including maintenance periods.
+Prioritize jobs based on due dates, processing times, and priority levels.
+For each job task, identify eligible workers and machines matching required skills and capabilities.
+Find earliest available time slots for both worker and machine, avoiding maintenance and conflicts.
+Assign task to matched worker and machine at earliest feasible time.
+Update calendars to mark assigned slots as occupied.
+Repeat task assignment until all jobs are fully scheduled.
+Apply heuristics (e.g., shortest processing time first) to optimize resource utilization and reduce idle time.
+Continuously monitor and adjust schedule to accommodate maintenance and unexpected delays.
+Output final schedule maximizing throughput and minimizing makespan while respecting all constraints.
